@@ -1,0 +1,1769 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ol,
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+#header_title {
+  height: 120px;
+  background: url(../img/header_tiele.jpg) no-repeat center;
+}
+#header_Nav {
+  height: 40px;
+  background: #333;
+}
+#header_Nav .Nav {
+  width: 1226px;
+  height: 40px;
+  margin: 0 auto;
+  position: relative;
+}
+#header_Nav .Nav .Nav_Left {
+  float: left;
+}
+#header_Nav .Nav .Nav_Left li {
+  float: left;
+  line-height: 40px;
+  font-size: 12px;
+  margin-right: 4px;
+}
+#header_Nav .Nav .Nav_Left li a {
+  color: #b0b0b0;
+}
+#header_Nav .Nav .Nav_Left li a span {
+  margin: 0 .5em;
+  color: #424242;
+}
+#header_Nav .Nav .Nav_Left li a:hover {
+  color: white;
+}
+#header_Nav .Nav .Nav_Right {
+  float: right;
+  position: relative;
+}
+#header_Nav .Nav .Nav_Right li {
+  float: left;
+  line-height: 40px;
+}
+#header_Nav .Nav .Nav_Right li a {
+  color: #b0b0b0;
+  font-size: 12px;
+}
+#header_Nav .Nav .Nav_Right li a:hover {
+  color: white;
+}
+#header_Nav .Nav .Nav_Right li span {
+  padding: 0 10px;
+  color: #424242;
+}
+#header_Nav .Nav .Nav_Right .Car {
+  float: right;
+  width: 120px;
+  height: 40px;
+  background: #424242;
+  margin-left: 15px;
+}
+#header_Nav .Nav .Nav_Right .Car:hover .Car_show {
+  display: block;
+}
+#header_Nav .Nav .Nav_Right .Car .Car_shopping {
+  width: 120px;
+  height: 40px;
+  color: #b0b0b0;
+  text-align: center;
+  background: #424242;
+  position: relative;
+  z-index: 999;
+  line-height: 40px;
+  cursor: pointer;
+}
+#header_Nav .Nav .Nav_Right .Car .Car_shopping:hover {
+  background: white;
+}
+#header_Nav .Nav .Nav_Right .Car .Car_shopping:hover span {
+  color: #ff6700;
+}
+#header_Nav .Nav .Nav_Right .Car .Car_shopping:hover a {
+  color: #ff6700;
+}
+#header_Nav .Nav .Nav_Right .Car .Car_shopping span {
+  color: #b0b0b0;
+  margin-right: 4px;
+}
+#header_Nav .Nav .Nav_Right .Car .Car_shopping a {
+  color: #b0b0b0;
+  font-size: 13px;
+  padding: 0px 5px;
+}
+#header_Nav .Nav .Nav_Right .Car .Car_show {
+  width: 316px;
+  height: 100px;
+  position: absolute;
+  right: 0px;
+  top: 40px;
+  display: none;
+  background: white;
+  z-index: 9;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+#header_Nav .Nav .Nav_Right .Car .Car_show p {
+  line-height: 100px;
+  text-align: center;
+  font-size: 12px;
+  color: #b0b0b0;
+}
+#Nav {
+  width: 1226px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+#Nav .Logo {
+  height: 100px;
+  float: left;
+}
+#Nav .Logo .Logo_Left {
+  width: 55px;
+  height: 55px;
+  display: inline-block;
+  background: #FF6D0B url(../img/mi-logo.png) no-repeat center;
+  position: relative;
+  top: 10px;
+}
+#Nav .Logo .Logo_right {
+  width: 185px;
+  height: 88px;
+  display: inline-block;
+  position: relative;
+  top: 12px;
+}
+#Nav .Nav_Center {
+  float: left;
+  height: 100px;
+}
+#Nav .Nav_Center .xila {
+  float: left;
+  margin-top: 40px;
+  padding: 0px 10px;
+}
+#Nav .Nav_Center .xila .erji {
+  height: 0px;
+  background: white;
+  border-top: 2px solid #E0E0E0;
+  position: absolute;
+  display: none;
+  z-index: 999999;
+  left: 50%;
+  overflow: hidden;
+  top: 100px;
+}
+#Nav .Nav_Center .xila .erji .neir {
+  width: 1226px;
+  height: 210px;
+  margin: 0 auto;
+}
+#Nav .Nav_Center .xila .erji .neir ul {
+  width: 1300px;
+}
+#Nav .Nav_Center .xila .erji .neir ul li {
+  width: 200px;
+  height: 210px;
+  float: left;
+  margin-left: 2px;
+}
+#Nav .Nav_Center .xila .erji .neir ul li p {
+  width: 65px;
+  height: 18px;
+  border: 1px solid #ff6700;
+  color: #ff6700;
+  line-height: 18px;
+  margin: 0 auto;
+  font-size: 12px;
+  text-align: center;
+}
+#Nav .Nav_Center .xila .erji .neir ul li img {
+  width: 175px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+  border-left: 2px solid #E0E0E0;
+}
+#Nav .Nav_Center .xila .erji .neir ul li span {
+  text-align: center;
+  display: block;
+  font-size: 12px;
+  padding-top: 10px;
+}
+#Nav .Nav_Center .xila .erji .neir ul li .jage {
+  color: #FF6700;
+}
+#Nav .Nav_Center .xila .erji .neir ul li:first-child {
+  border: none;
+}
+#Nav .Nav_Center .xila a {
+  color: #333;
+}
+#Nav .Nav_Center .xila a:hover {
+  color: #ff6700;
+}
+#Nav .Nav_Right {
+  float: right;
+  position: relative;
+}
+#Nav .Nav_Right #btn {
+  width: 245px;
+  height: 48px;
+  float: left;
+  position: relative;
+  top: 24px;
+}
+#Nav .Nav_Right #btn1 {
+  width: 52px;
+  height: 52px;
+  float: left;
+  top: 24px;
+  position: relative;
+  background: white;
+  border: none;
+  border: 1px solid #b0b0b0;
+}
+#Nav .Nav_Right #sosuo {
+  position: absolute;
+  right: 16px;
+  top: 41px;
+}
+#Banner {
+  width: 1226px;
+  height: 460px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 10px;
+}
+#Banner .Banner_Left {
+  width: 234px;
+  height: 460px;
+  position: absolute;
+  z-index: 99;
+}
+#Banner .Banner_Left ul {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+#Banner .Banner_Left ul .list {
+  width: 205px;
+  height: 46px;
+  padding-left: 30px;
+  font-size: 13px;
+  line-height: 46px;
+}
+#Banner .Banner_Left ul .list a {
+  color: white;
+  font-size: 13px;
+}
+#Banner .Banner_Left ul .list span {
+  float: right;
+  color: white;
+  margin-right: 25px;
+}
+#Banner .Banner_Left ul .list:hover {
+  background: orange;
+}
+#Banner .Banner_Left ul .list .shop_noe {
+  width: 810px;
+  height: 460px;
+  background: white;
+  position: absolute;
+  top: 0px;
+  left: 233px;
+  display: none;
+}
+#Banner .Banner_Left ul .list .shop_noe .Ul_one {
+  width: 265px;
+  height: 460px;
+  float: left;
+  z-index: 90;
+}
+#Banner .Banner_Left ul .list .shop_noe .Ul_one .Ul_show {
+  width: 265px;
+  height: 55px;
+  padding: 10px 5px;
+}
+#Banner .Banner_Left ul .list .shop_noe .Ul_one .Ul_show img {
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+#Banner .Banner_Left ul .list .shop_noe .Ul_one .Ul_show a {
+  float: left;
+  position: relative;
+  left: 20px;
+  top: 10px;
+  font-size: 13px;
+  color: black;
+}
+#Banner .Banner_Left ul .list .shop_noe .Ul_one .Ul_show span {
+  padding: 0px 15px;
+  float: right;
+  border: 1px solid #FF6700;
+  height: 25px;
+  line-height: 25px;
+  position: relative;
+  top: 14px;
+  color: red;
+}
+#Banner .Banner_Left ul .list .kuai1 {
+  width: 530px;
+  height: 460px;
+  background: white;
+  position: absolute;
+  top: 0px;
+  left: 233px;
+  display: none;
+}
+#Banner .Banner_Left ul .list .kuai1 {
+  width: 530px;
+  height: 460px;
+  background: white;
+  position: absolute;
+  top: 0px;
+  left: 233px;
+  display: none;
+}
+#Banner .Banner_Left ul .list .kuai2 {
+  width: 1200px;
+  height: 460px;
+  background: white;
+  position: absolute;
+  top: 0px;
+  left: 233px;
+  display: none;
+}
+#Banner .Banner_Left ul .list .kuai3 {
+  width: 1200px;
+  height: 460px;
+  background: white;
+  position: absolute;
+  top: 0px;
+  left: 233px;
+  display: none;
+}
+#Banner .Banner_Left ul .list .kuai4 {
+  width: 550px;
+  height: 460px;
+  background: white;
+  position: absolute;
+  top: 0px;
+  left: 233px;
+  display: none;
+}
+#Banner .Banner_Left ul .list .kuai4 {
+  width: 550px;
+  height: 460px;
+  background: white;
+  position: absolute;
+  top: 0px;
+  left: 233px;
+  display: none;
+}
+#Banner .Banner_Left ul .list .kuai5 {
+  width: 1220px;
+  height: 460px;
+  background: white;
+  position: absolute;
+  top: 0px;
+  left: 233px;
+  display: none;
+}
+#Banner .Banner_Left ul .list .kuai6 {
+  width: 265px;
+  height: 460px;
+  background: white;
+  position: absolute;
+  top: 0px;
+  left: 233px;
+  display: none;
+}
+#Banner .Banner_Left ul .list .kuai7 {
+  width: 265px;
+  height: 460px;
+  background: white;
+  position: absolute;
+  top: 0px;
+  left: 233px;
+  display: none;
+}
+#Banner .Banner_Left ul .list .kuai8 {
+  width: 265px;
+  height: 460px;
+  background: white;
+  position: absolute;
+  top: 0px;
+  left: 233px;
+  display: none;
+}
+#Banner .Banner_Left ul .list .kuai9 {
+  width: 265px;
+  height: 460px;
+  background: white;
+  position: absolute;
+  top: 0px;
+  left: 233px;
+  display: none;
+}
+#Banner .Banner_Left ul .list:hover .shop_noe {
+  display: block;
+}
+#Banner .gaizi {
+  width: 234px;
+  height: 460px;
+  position: absolute;
+  background: black;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+#Banner .Bnner_RIght {
+  width: 1226px;
+  height: 460px;
+  position: relative;
+}
+#Banner .Bnner_RIght img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#Banner .Bnner_RIght .jian {
+  position: absolute;
+  top: 45%;
+  font-size: 30px;
+  color: white;
+  width: 42px;
+  height: 64px;
+  background: black;
+  line-height: 64px;
+  text-align: center;
+  opacity: 0.5;
+}
+#Banner .Bnner_RIght .left {
+  right: 0px;
+}
+#Banner .Bnner_RIght .right {
+  left: 238px;
+}
+#Banner .Bnner_RIght .lis {
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  bottom: 10px;
+  right: 70px;
+}
+#Banner .Bnner_RIght .lis li {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  float: left;
+  margin-left: 10px;
+}
+#Home {
+  width: 1226px;
+  height: 170px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+#Home ul {
+  width: 1300px;
+  margin-left: -15px;
+}
+#Home ul .hot {
+  width: 234px;
+  height: 170px;
+  float: left;
+}
+#Home ul .hot .men {
+  width: 76px;
+  height: 82px;
+  border: 1px solid #665E57;
+  float: left;
+  background: #5F5750;
+}
+#Home ul .hot .men span {
+  display: inline-block;
+  font-size: 25px;
+  margin: 0 auto;
+  padding-left: 23px;
+  padding-top: 20px;
+  color: #CDCAB2;
+}
+#Home ul .hot .men p {
+  font-size: 12px;
+  text-align: center;
+  color: #CDCAB2;
+  padding: 5px;
+}
+#Home ul li {
+  width: 316px;
+  height: 170px;
+  float: left;
+  margin-left: 15px;
+}
+#Home ul li img {
+  width: 316px;
+  height: 170px;
+}
+#Star {
+  width: 1226px;
+  height: 438px;
+  margin: 0 auto;
+}
+#Star .Star_Top {
+  width: 1226px;
+  height: 58px;
+}
+#Star .Star_Top h2 {
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+  color: #333;
+  float: left;
+}
+#Star .Star_Top .arrow {
+  width: 85px;
+  height: 30px;
+  float: right;
+  position: relative;
+  top: 20px;
+}
+#Star .Star_Top .arrow a {
+  width: 24px;
+  height: 16px;
+  padding: 4px 7px;
+  border: 1px solid #e0e0e0;
+  font-size: 17px;
+  line-height: 13px;
+  display: inline-block;
+  text-align: center;
+  line-height: 16px;
+  color: #B0B0B1;
+}
+#Star .Star_Top .arrow .active {
+  color: orange;
+  cursor: default;
+}
+#Star #day_one {
+  width: 1226px;
+  height: 340px;
+  position: relative;
+  overflow: hidden;
+}
+#Star #day_one #sdy {
+  width: 2452px;
+  height: 340px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#Star #day_one #sdy .Star_Btn {
+  width: 1226px;
+  height: 340px;
+  float: left;
+}
+#Star #day_one #sdy .Star_Btn ul {
+  width: 1260px;
+  margin-left: -14px;
+}
+#Star #day_one #sdy .Star_Btn ul li {
+  width: 234px;
+  height: 340px;
+  margin-left: 14px;
+  float: left;
+  background: #fafafa;
+}
+#Star #day_one #sdy .Star_Btn ul li img {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+#Star #day_one #sdy .Star_Btn ul li h3 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 14px;
+  color: #212121;
+  font-weight: 500;
+}
+#Star #day_one #sdy .Star_Btn ul li p {
+  padding-top: 10px;
+  text-align: center;
+  color: #b0b0b0;
+  font-size: 12px;
+}
+#Star #day_one #sdy .Star_Btn ul li span {
+  text-align: center;
+  padding-top: 10px;
+}
+#Star #day_one #sdy .Star_Btn ul li .mani {
+  color: #ff6709;
+}
+#main {
+  width: 100%;
+  height: auto;
+  background: #F5F5F5;
+  padding-top: 60px;
+}
+#main .products {
+  width: 1226px;
+  height: 686px;
+  margin: 0 auto;
+}
+#main .products .Products_Top {
+  width: 1226PX;
+  height: 64px;
+}
+#main .products .Products_Top h2 {
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+  color: #333;
+  float: left;
+  font-family: "微软雅黑";
+}
+#main .products .Products_Top .Products_Rigt {
+  float: right;
+}
+#main .products .Products_Top .Products_Rigt li {
+  float: left;
+  height: 58px;
+  line-height: 58px;
+  margin-left: 15px;
+}
+#main .products .Products_Top .Products_Rigt li a {
+  color: #424242;
+}
+#main .products .news_release {
+  width: 234px;
+  height: 614px;
+  float: left;
+}
+#main .products .News_you {
+  width: 978px;
+  height: 614px;
+  float: left;
+  margin-left: 12px;
+  position: relative;
+  display: none;
+}
+#main .products .News_you ul {
+  width: 1000px;
+  margin-left: -12px;
+}
+#main .products .News_you ul li {
+  width: 234px;
+  height: 300px;
+  margin-left: 16px;
+  float: left;
+  margin-bottom: 10px;
+  text-align: center;
+  background: white;
+  position: relative;
+}
+#main .products .News_you ul li .Discount {
+  width: 64px;
+  height: 20px;
+  background: #e53935;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 12px;
+}
+#main .products .News_you ul li .zenng {
+  width: 64px;
+  height: 20px;
+  background: #2196F3;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 12px;
+}
+#main .products .News_you ul li .xinp {
+  width: 64px;
+  height: 20px;
+  background: #83C44E;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 12px;
+}
+#main .products .News_you ul li img {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  padding-top: 10px;
+}
+#main .products .News_you ul li p {
+  margin: 0 auto;
+  font-size: 15px;
+  color: #333;
+}
+#main .products .News_you ul li span {
+  display: inline-block;
+  margin: 0 auto;
+  color: #b0b0b0;
+  font-size: 12px;
+  padding-top: 8px;
+}
+#main .products .News_you ul li .may {
+  margin: 0 auto;
+  color: #ff6700;
+  padding-top: 20px;
+}
+#main .products .News_you ul li .top {
+  width: 234px;
+  height: 143px;
+  margin-bottom: 10px;
+  position: relative;
+  background: white;
+}
+#main .products .News_you ul li .top a {
+  font-size: 14px;
+  color: #333333;
+  position: absolute;
+  left: 30px;
+  top: 50px;
+}
+#main .products .News_you ul li .top p {
+  position: absolute;
+  left: 30px;
+  top: 80px;
+  color: #ff6700;
+}
+#main .products .News_you ul li .top img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 0px;
+  top: 40px;
+}
+#main .products .News_you ul li .bon {
+  width: 234px;
+  height: 143px;
+  position: relative;
+  background: white;
+}
+#main .products .News_you ul li .bon p {
+  position: absolute;
+  left: 37px;
+  top: 49px;
+  font-size: 20px;
+}
+#main .products .News_you ul li .bon span {
+  position: absolute;
+  left: 37px;
+  top: 80px;
+}
+#main .products .News_you ul li .bon .iconfont {
+  position: absolute;
+  top: 50px;
+  left: 142px;
+  font-size: 3rem;
+  color: #FF6700;
+}
+#main .products .News_you ul .first:last-child {
+  background: #F5F5F5;
+}
+#main .products .xia {
+  border-bottom: 2px solid orange !important;
+}
+#main #Gence {
+  width: 1226px;
+  height: 686px;
+  margin: 0 auto;
+}
+#main #Gence .Gence_Top {
+  width: 1226PX;
+  height: 64px;
+}
+#main #Gence .Gence_Top h2 {
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+  color: #333;
+  float: left;
+  font-family: "微软雅黑";
+}
+#main #Gence .Gence_Top .Gence_Ri {
+  float: right;
+}
+#main #Gence .Gence_Top .Gence_Ri li {
+  float: left;
+  height: 58px;
+  line-height: 58px;
+  margin-left: 15px;
+}
+#main #Gence .Gence_Top .Gence_Ri li a {
+  color: #333333;
+}
+#main #Gence .Gence_Lef {
+  width: 234px;
+  height: 614px;
+  float: left;
+}
+#main #Gence .Gence_Lef .Gence_one {
+  width: 234px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+#main #Gence .Gence_Lef .Gence_one img {
+  width: 234px;
+  height: 300px;
+}
+#main #Gence .Gence_Lef .Gence_Tow {
+  width: 234px;
+  height: 300px;
+}
+#main #Gence .Gence_Lef .Gence_Tow img {
+  width: 234px;
+  height: 300px;
+}
+#main #Gence .Gence_Cen {
+  width: 978px;
+  height: 614px;
+  float: left;
+  margin-left: 10px;
+  position: relative;
+  display: none;
+}
+#main #Gence .Gence_Cen ul {
+  width: 1000px;
+  margin-left: -12px;
+}
+#main #Gence .Gence_Cen ul li {
+  width: 234px;
+  height: 300px;
+  margin-left: 16px;
+  float: left;
+  margin-bottom: 10px;
+  text-align: center;
+  background: white;
+}
+#main #Gence .Gence_Cen ul li p {
+  width: 64px;
+  height: 20px;
+  background: #e53935;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 12px;
+}
+#main #Gence .Gence_Cen ul li img {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  padding-top: 10px;
+}
+#main #Gence .Gence_Cen ul li span {
+  display: inline-block;
+  margin: 0 auto;
+  color: #333;
+  font-size: 15px;
+  width: 234px;
+}
+#main #Gence .Gence_Cen ul li .zenng {
+  width: 64px;
+  height: 20px;
+  background: #2196F3;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 12px;
+}
+#main #Gence .Gence_Cen ul li .ceo {
+  display: inline-block;
+  margin: 0 auto;
+  color: #b0b0b0;
+  font-size: 12px;
+}
+#main #Gence .Gence_Cen ul li .qian {
+  display: inline-block;
+  width: 234px;
+  margin: 0 auto;
+  color: #ff6700;
+  padding-top: 25px;
+}
+#main #Gence .min {
+  border-bottom: 2px solid orange !important;
+}
+#main #Gence {
+  width: 1226px;
+  height: 686px;
+  margin: 0 auto;
+}
+#main #Gence .Gence_Top {
+  width: 1226PX;
+  height: 64px;
+}
+#main #Gence .Gence_Top h2 {
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+  color: #333;
+  float: left;
+  font-family: "微软雅黑";
+}
+#main #Gence .Gence_Top .Gence_parts {
+  float: right;
+}
+#main #Gence .Gence_Top .Gence_parts li {
+  float: left;
+  height: 58px;
+  line-height: 58px;
+  margin-left: 15px;
+}
+#main #Gence .Gence_Top .Gence_parts li a {
+  color: #333333;
+}
+#main #Gence .Gence_Lef {
+  width: 234px;
+  height: 614px;
+  float: left;
+}
+#main #Gence .Gence_Lef .Gence_one {
+  width: 234px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+#main #Gence .Gence_Lef .Gence_one img {
+  width: 234px;
+  height: 300px;
+}
+#main #Gence .Gence_Lef .Gence_Tow {
+  width: 234px;
+  height: 300px;
+}
+#main #Gence .Gence_Lef .Gence_Tow img {
+  width: 234px;
+  height: 300px;
+}
+#main #Gence .Gence_sam {
+  width: 978px;
+  height: 614px;
+  float: left;
+  margin-left: 10px;
+  position: relative;
+  display: none;
+}
+#main #Gence .Gence_sam ul {
+  width: 1000px;
+  margin-left: -12px;
+}
+#main #Gence .Gence_sam ul li {
+  width: 234px;
+  height: 300px;
+  margin-left: 16px;
+  float: left;
+  margin-bottom: 10px;
+  text-align: center;
+  background: white;
+}
+#main #Gence .Gence_sam ul li p {
+  width: 64px;
+  height: 20px;
+  background: #e53935;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 12px;
+}
+#main #Gence .Gence_sam ul li img {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  padding-top: 10px;
+}
+#main #Gence .Gence_sam ul li span {
+  display: inline-block;
+  margin: 0 auto;
+  color: #333;
+  font-size: 15px;
+  width: 234px;
+}
+#main #Gence .Gence_sam ul li .ceo {
+  display: inline-block;
+  margin: 0 auto;
+  color: #b0b0b0;
+  font-size: 12px;
+}
+#main #Gence .Gence_sam ul li .qian {
+  display: inline-block;
+  width: 234px;
+  margin: 0 auto;
+  color: #ff6700;
+  padding-top: 25px;
+}
+#main #Gence .zui {
+  border-bottom: 2px solid orange !important;
+}
+#main #Gence {
+  width: 1226px;
+  height: 686px;
+  margin: 0 auto;
+}
+#main #Gence .Gence_Top {
+  width: 1226PX;
+  height: 64px;
+}
+#main #Gence .Gence_Top h2 {
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+  color: #333;
+  float: left;
+  font-family: "微软雅黑";
+}
+#main #Gence .Gence_Top .Gence_hot {
+  float: right;
+}
+#main #Gence .Gence_Top .Gence_hot li {
+  float: left;
+  height: 58px;
+  line-height: 58px;
+  margin-left: 15px;
+}
+#main #Gence .Gence_Top .Gence_hot li a {
+  color: #333333;
+}
+#main #Gence .Gence_Lef {
+  width: 234px;
+  height: 614px;
+  float: left;
+}
+#main #Gence .Gence_Lef .Gence_one {
+  width: 234px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+#main #Gence .Gence_Lef .Gence_one img {
+  width: 234px;
+  height: 300px;
+}
+#main #Gence .Gence_Lef .Gence_Tow {
+  width: 234px;
+  height: 300px;
+}
+#main #Gence .Gence_Lef .Gence_Tow img {
+  width: 234px;
+  height: 300px;
+}
+#main #Gence .Gence_sbm {
+  width: 978px;
+  height: 614px;
+  float: left;
+  margin-left: 10px;
+  position: relative;
+  display: none;
+}
+#main #Gence .Gence_sbm ul {
+  width: 1000px;
+  margin-left: -12px;
+}
+#main #Gence .Gence_sbm ul li {
+  width: 234px;
+  height: 300px;
+  margin-left: 16px;
+  float: left;
+  margin-bottom: 10px;
+  text-align: center;
+  background: white;
+}
+#main #Gence .Gence_sbm ul li p {
+  width: 64px;
+  height: 20px;
+  background: #e53935;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 12px;
+}
+#main #Gence .Gence_sbm ul li img {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  padding-top: 10px;
+}
+#main #Gence .Gence_sbm ul li span {
+  display: inline-block;
+  margin: 0 auto;
+  color: #333;
+  font-size: 15px;
+  width: 234px;
+}
+#main #Gence .Gence_sbm ul li .ceo {
+  display: inline-block;
+  margin: 0 auto;
+  color: #b0b0b0;
+  font-size: 12px;
+}
+#main #Gence .Gence_sbm ul li .qian {
+  display: inline-block;
+  width: 234px;
+  margin: 0 auto;
+  color: #ff6700;
+  padding-top: 25px;
+}
+#main #Gence .nb {
+  border-bottom: 2px solid orange !important;
+}
+#main #Gence {
+  width: 1226px;
+  height: 686px;
+  margin: 0 auto;
+}
+#main #Gence .Gence_Top {
+  width: 1226PX;
+  height: 64px;
+}
+#main #Gence .Gence_Top h2 {
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+  color: #333;
+  float: left;
+  font-family: "微软雅黑";
+}
+#main #Gence .Gence_Top .Gence_periphery {
+  float: right;
+}
+#main #Gence .Gence_Top .Gence_periphery li {
+  float: left;
+  height: 58px;
+  line-height: 58px;
+  margin-left: 15px;
+}
+#main #Gence .Gence_Top .Gence_periphery li a {
+  color: #333333;
+}
+#main #Gence .Gence_Lef {
+  width: 234px;
+  height: 614px;
+  float: left;
+}
+#main #Gence .Gence_Lef .Gence_one {
+  width: 234px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+#main #Gence .Gence_Lef .Gence_one img {
+  width: 234px;
+  height: 300px;
+}
+#main #Gence .Gence_Lef .Gence_Tow {
+  width: 234px;
+  height: 300px;
+}
+#main #Gence .Gence_Lef .Gence_Tow img {
+  width: 234px;
+  height: 300px;
+}
+#main #Gence .Gence_tent {
+  width: 978px;
+  height: 614px;
+  float: left;
+  margin-left: 10px;
+  position: relative;
+  display: none;
+}
+#main #Gence .Gence_tent ul {
+  width: 1000px;
+  margin-left: -12px;
+}
+#main #Gence .Gence_tent ul li {
+  width: 234px;
+  height: 300px;
+  margin-left: 16px;
+  float: left;
+  margin-bottom: 10px;
+  text-align: center;
+  background: white;
+}
+#main #Gence .Gence_tent ul li p {
+  width: 64px;
+  height: 20px;
+  background: #e53935;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 12px;
+}
+#main #Gence .Gence_tent ul li img {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  padding-top: 10px;
+}
+#main #Gence .Gence_tent ul li span {
+  display: inline-block;
+  margin: 0 auto;
+  color: #333;
+  font-size: 15px;
+  width: 234px;
+}
+#main #Gence .Gence_tent ul li .ceo {
+  display: inline-block;
+  margin: 0 auto;
+  color: #b0b0b0;
+  font-size: 12px;
+}
+#main #Gence .Gence_tent ul li .qian {
+  display: inline-block;
+  width: 234px;
+  margin: 0 auto;
+  color: #ff6700;
+  padding-top: 25px;
+}
+#main #Gence .can {
+  border-bottom: 2px solid orange !important;
+}
+#main #mend {
+  width: 1226px;
+  height: 358px;
+  margin: 0 auto;
+}
+#main #mend .mend_Top {
+  width: 1226px;
+  height: 64px;
+}
+#main #mend .mend_Top h2 {
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+  color: #333;
+  float: left;
+  font-family: "微软雅黑";
+}
+#main #mend .mend_Top .jian {
+  width: 85px;
+  height: 30px;
+  float: right;
+  position: relative;
+  top: 20px;
+}
+#main #mend .mend_Top .jian a {
+  width: 24px;
+  height: 16px;
+  padding: 4px 7px;
+  border: 1px solid #e0e0e0;
+  font-size: 17px;
+  line-height: 13px;
+  display: inline-block;
+  text-align: center;
+  line-height: 16px;
+  color: #B0B0B1;
+}
+#main #mend .mend_Top .jian .act {
+  color: orange !important;
+  cursor: default !important;
+}
+#main #mend .center {
+  width: 1229px;
+  height: 280px;
+  position: relative;
+  overflow: hidden;
+}
+#main #mend .center .wurj {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 4904px;
+}
+#main #mend .center .wurj .men_Cnet {
+  width: 1226px;
+  height: 280px;
+  float: left;
+}
+#main #mend .center .wurj .men_Cnet ul {
+  width: 1260px;
+  margin-left: -14px;
+}
+#main #mend .center .wurj .men_Cnet ul li {
+  width: 234px;
+  height: 280px;
+  margin-left: 14px;
+  float: left;
+  background: white;
+}
+#main #mend .center .wurj .men_Cnet ul li img {
+  width: 140px;
+  height: 140px;
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+#main #mend .center .wurj .men_Cnet ul li h3 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 14px;
+  color: #212121;
+  font-weight: 500;
+}
+#main #mend .center .wurj .men_Cnet ul li p {
+  padding-top: 10px;
+  text-align: center;
+  color: #b0b0b0;
+  font-size: 12px;
+}
+#main #mend .center .wurj .men_Cnet ul li .yuan {
+  color: #ff6709;
+}
+#main #products {
+  width: 1226px;
+  height: 473px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+#main #products .products_Top {
+  width: 1226px;
+  height: 64px;
+}
+#main #products .products_Top h2 {
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+  color: #333;
+  float: left;
+  font-family: "微软雅黑";
+}
+#main #products .products_Center {
+  width: 1226px;
+  height: 415px;
+}
+#main #products .products_Center ul {
+  width: 1300px;
+  margin-left: -12px;
+}
+#main #products .products_Center ul li {
+  width: 296px;
+  height: 415px;
+  margin-left: 14px;
+  float: left;
+  background: white;
+}
+#main #products .products_Center ul li:hover {
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.1);
+}
+#main #products .products_Center ul li img {
+  width: 296px;
+  height: 220px;
+}
+#main #products .products_Center ul li p {
+  padding: 20px 27px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+}
+#main #products .products_Center ul li span {
+  width: 250px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 auto;
+  color: #b0b0b0;
+  padding: 0px 23px;
+}
+#main #products .products_Center ul li a {
+  display: inline-block;
+  font-size: 14px;
+  padding: 5px 23px;
+  color: #333333;
+}
+#main #products .products_Center ul li a b {
+  font-size: 14px;
+  color: #ff6700;
+  font-weight: 400;
+}
+#main #Centwe {
+  width: 1226px;
+  height: 478px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+#main #Centwe .Centwe_Top {
+  width: 1226px;
+  height: 58px;
+  margin: 0 auto;
+}
+#main #Centwe .Centwe_Top h2 {
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+  color: #333;
+  float: left;
+  font-family: "微软雅黑";
+}
+#main #Centwe .Centwe_book {
+  width: 1226px;
+  height: 420px;
+}
+#main #Centwe .Centwe_book .Gen_tag {
+  width: 296px;
+  height: 420px;
+  overflow: hidden;
+  position: relative;
+  background: white;
+  float: left;
+  margin-left: 10px;
+  border-top: 1px solid #FFAC13;
+}
+#main #Centwe .Centwe_book .Gen_tag h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 55px;
+  color: orange;
+}
+#main #Centwe .Centwe_book .Gen_tag .col {
+  color: #83c44e;
+}
+#main #Centwe .Centwe_book .Gen_tag .col1 {
+  color: #e53935;
+}
+#main #Centwe .Centwe_book .Gen_tag .col2 {
+  color: #2196f3;
+}
+#main #Centwe .Centwe_book .Gen_tag .Bt_Ul {
+  width: 1200px;
+  height: 340px;
+  position: absolute;
+  left: 0px;
+}
+#main #Centwe .Centwe_book .Gen_tag .Bt_Ul li {
+  width: 296px;
+  height: 342px;
+  float: left;
+  margin-left: 2px;
+  background: white;
+}
+#main #Centwe .Centwe_book .Gen_tag .Bt_Ul li p {
+  color: #333;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+#main #Centwe .Centwe_book .Gen_tag .Bt_Ul li span {
+  display: inline-block;
+  padding: 10px 26px;
+  color: #b0b0b0;
+  font-size: 13px;
+  text-align: center;
+}
+#main #Centwe .Centwe_book .Gen_tag .Bt_Ul li a {
+  height: 40px;
+  text-align: center;
+  display: block;
+  margin: 0  auto;
+  font-size: 13px;
+  color: #333;
+  line-height: 40px;
+}
+#main #Centwe .Centwe_book .Gen_tag .Bt_Ul li img {
+  width: 216px;
+  height: 154px;
+  display: block;
+  margin: 0 auto;
+}
+#main #Centwe .Centwe_book .Gen_tag:hover .bmod {
+  display: block;
+}
+#main #Centwe .Centwe_book .Gen_tag .bmod {
+  width: 20px;
+  height: 48px;
+  background: black;
+  position: absolute;
+  left: 0px;
+  top: 45%;
+  color: white;
+  line-height: 48px;
+  text-align: center;
+  background: #D9D9D9;
+  display: none;
+}
+#main #Centwe .Centwe_book .Gen_tag .marg {
+  left: 0px;
+}
+#main #Centwe .Centwe_book .Gen_tag .mars {
+  left: 278px;
+}
+#main #Centwe .Centwe_book .Gen_tag .dian {
+  width: 80px;
+  height: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 120px;
+}
+#main #Centwe .Centwe_book .Gen_tag .dian span {
+  width: 6px;
+  height: 6px;
+  background: #333333;
+  border-radius: 50%;
+  float: left;
+  margin-left: 5px;
+}
+#main #Centwe .Centwe_book .Gen_tag .dian .tia {
+  border: 1px solid orange;
+  background: white;
+}
+#main #Centwe .Centwe_book .Gen_one {
+  width: 296px;
+  height: 420px;
+  overflow: hidden;
+  position: relative;
+  background: white;
+  float: left;
+  margin-left: 10px;
+  border-top: 1px solid #83C44E;
+}
+#main #Centwe .Centwe_book .Gen_tow {
+  width: 296px;
+  height: 420px;
+  overflow: hidden;
+  position: relative;
+  background: white;
+  float: left;
+  margin-left: 10px;
+  border-top: 1px solid #E53935;
+}
+#main #Centwe .Centwe_book .Gen_three {
+  width: 296px;
+  height: 420px;
+  overflow: hidden;
+  position: relative;
+  background: white;
+  float: left;
+  margin-left: 10px;
+  border-top: 1px solid #2196F3;
+}
+#main #Video {
+  width: 1226px;
+  height: 343px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+#main #Video .Video_Top {
+  width: 1226px;
+  height: 58px;
+}
+#main #Video .Video_Top h2 {
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+  color: #333;
+  font-family: "微软雅黑";
+  float: left;
+}
+#main #Video .Video_Top .Video_Qun {
+  float: right;
+}
+#main #Video .Video_Top .Video_Qun p {
+  line-height: 58px;
+  color: #424242;
+  font-size: 16px;
+  margin-right: 5px;
+}
+#main #Video .Video_Top .Video_Qun p span {
+  color: #B0B0B0;
+}
+#main #Video .Video_Btn {
+  width: 1226px;
+  height: 285px;
+}
+#main #Video .Video_Btn ul {
+  width: 1300px;
+  margin-left: -14px;
+}
+#main #Video .Video_Btn ul li {
+  width: 296px;
+  height: 285px;
+  margin-left: 14px;
+  float: left;
+  background: white;
+}
+#main #Video .Video_Btn ul li p {
+  padding: 20px 20px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #333333;
+}
+#main #Video .Video_Btn ul li span {
+  display: block;
+  text-align: center;
+  color: #b0b0b0;
+  height: 18px;
+  font-size: 13px;
+}
+#main #Video .Video_Btn ul li img {
+  width: 296px;
+  height: 180px;
+}
+#footer {
+  width: 100%;
+  height: 272px;
+}
+#footer .Footer_Top {
+  width: 1226px;
+  height: 272px;
+  margin: 0 auto;
+}
+#footer .Footer_Top .Footer_OP {
+  width: 1226px;
+  height: 25px;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 27px 0px;
+}
+#footer .Footer_Top .Footer_OP ul li {
+  float: left;
+  width: 243px;
+  height: 25px;
+  border-left: 1px solid #e0e0e0;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+}
+#footer .Footer_Top .Footer_OP ul li span {
+  font-size: 24px;
+}
+#footer .Footer_Top .Footer_OP ul li span a {
+  font-size: 16px;
+  color: #616161;
+}
+#footer .Footer_Top .Footer_Btn {
+  width: 1226px;
+  height: 192px;
+  margin: 0 auto;
+}
+#footer .Footer_Top .Footer_Btn dl {
+  width: 160px;
+  height: 112px;
+  float: left;
+  margin: 0;
+  padding: 40px 0px;
+}
+#footer .Footer_Top .Footer_Btn dl dt {
+  margin: -1px 0 26px;
+  font-size: 16px;
+  color: #424242;
+}
+#footer .Footer_Top .Footer_Btn dl dd {
+  font-size: 13px;
+  padding: 4px 1px;
+  color: #797579;
+}
+#footer .Footer_Top .Footer_Btn .mst {
+  float: right;
+  width: 250px;
+  height: 192px;
+  text-align: center;
+}
+#footer .Footer_Top .Footer_Btn .mst p {
+  padding-top: 37px;
+  font-size: 22px;
+  line-height: 1;
+  color: #ff6700;
+}
+#footer .Footer_Top .Footer_Btn .mst span {
+  display: inline-block;
+  font-size: 12px;
+  padding: 5px 0px;
+}
+#footer .Footer_Top .Footer_Btn .mst .lk {
+  display: inline-block;
+  width: 120px;
+  height: 30px;
+  border: 1px solid #FF6700;
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 30px;
+  color: #FF6700;
+}
+#footer .Footer_Top .Footer_Btn .mst .lk:hover {
+  background: #F25807;
+  color: white;
+}
+#foot {
+  width: 100%;
+  height: 166px;
+  background: #FAFAFA;
+  position: relative;
+}
+#foot .foot_logo {
+  width: 1226px;
+  height: 166px;
+  margin: 0 auto;
+}
+#foot .foot_logo .foot_cnt {
+  width: 1226px;
+  height: 57px;
+  position: absolute;
+  top: 50px;
+}
+#foot .foot_logo .foot_cnt img {
+  width: 55px;
+  height: 55px;
+  background: #FF6B00;
+  float: left;
+}
+#foot .foot_logo .foot_cnt .foo_left {
+  width: 720px;
+  height: 57px;
+  float: left;
+  margin-left: 5px;
+}
+#foot .foot_logo .foot_cnt .foo_left ul li {
+  float: left;
+}
+#foot .foot_logo .foot_cnt .foo_left ul li a {
+  font-size: 12px;
+  color: #757575;
+}
+#foot .foot_logo .foot_cnt .foo_left ul li span {
+  color: #C9B6B6;
+  padding: 0px 5px;
+}
+#foot .foot_logo .foot_cnt .foo_left p {
+  width: 595px;
+  color: #b0b0b0;
+  font-size: 12px;
+}
+#foot .foot_logo .foot_cnt .foo_ri {
+  width: 375px;
+  height: 28px;
+  float: right;
+}
+#foot .foot_logo .foot_cnt .foo_ri ul li {
+  float: left;
+}
+#foot .foot_logo .foot_cnt .foo_ri ul li .tpne {
+  width: 83px;
+  height: 28px;
+  background: #FAFAFA;
+  margin-left: 10px;
+}
+#foot .foot_logo .mi {
+  width: 1226px;
+  height: 20px;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+}
